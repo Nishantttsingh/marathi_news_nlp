@@ -83,4 +83,4 @@ Compares the performance of the different machine learning models using evaluati
 ### 6. Dataset Details
 Provides information about the dataset used for training and evaluation.
 
-![Dataset Details](screenshots/dataset_details.png)
+![Dataset Details](screenshots/dataset_detail.png)
