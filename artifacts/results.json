@@ -1,0 +1,31 @@
+{
+  "selected": "Logistic Regression",
+  "train": 9644,
+  "test": 2412,
+  "metrics": [
+    {
+      "Model Name": "Multinomial Naive Bayes",
+      "Accuracy": 0.8727197346600332,
+      "Macro Precision": 0.9706094132285937,
+      "Macro Recall": 0.8291975104935592,
+      "Macro F1": 0.8883815721824719,
+      "Status": "Evaluated"
+    },
+    {
+      "Model Name": "Logistic Regression",
+      "Accuracy": 0.8917910447761194,
+      "Macro Precision": 0.9466178349118902,
+      "Macro Recall": 0.8838413837024172,
+      "Macro F1": 0.9131917001769271,
+      "Status": "Selected"
+    },
+    {
+      "Model Name": "Linear SVM",
+      "Accuracy": 0.898424543946932,
+      "Macro Precision": 0.9296174103232147,
+      "Macro Recall": 0.8894661861340282,
+      "Macro F1": 0.9086137775389522,
+      "Status": "Evaluated"
+    }
+  ]
+}
