@@ -50,13 +50,37 @@ The first launch trains and caches the models in `artifacts/`.
 ## Project Structure
 `app.py` UI | `src/` preprocessing, feature_extraction, models, evaluation, prediction | `utils/` data_loader, plots | `data/` dataset + stopwords | `tests/verify.py` | `artifacts/` cached models
 
-## Limitations
-- Headlines only (short texts); results may not transfer to full articles.
-- Category labels overlap semantically (e.g. India / Maharashtra / Politics / World), which limits achievable accuracy.
-- Class imbalance: minority classes have 235 examples (47 in the test set), so per-class scores are noisy.
-- No stemming/lemmatization; single split, no cross-validation.
-- Matplotlib cannot render Devanagari, so Marathi terms are shown in tables, not charts.
-- Linear SVM outputs decision scores, not probabilities (no calibration).
-
 ## Future Improvements
 Character n-gram TF-IDF for Marathi morphology, k-fold cross-validation, hyperparameter search on a validation split, calibrated SVM, a Marathi morphological analyzer, MarathiBERT / IndicBERT as a comparison.
+
+## Application Screenshots
+
+### 1. Homepage
+The main interface of the Marathi News Classification application.
+
+![Homepage](screenshots/homepage.png)
+
+### 2. News Classification
+The application processes the entered Marathi news article and predicts its category.
+
+![News Classification](screenshots/classification.png)
+
+### 3. Text Preprocessing
+Displays the NLP preprocessing steps applied to the input news text.
+
+![Text Preprocessing](screenshots/preprocessing.png)
+
+### 4. Model Evaluation
+Shows the evaluation results of the classification models.
+
+![Model Evaluation](screenshots/model_evaluation.png)
+
+### 5. Model Comparison
+Compares the performance of the different machine learning models using evaluation metrics.
+
+![Model Comparison](screenshots/model_comparison.png)
+
+### 6. Dataset Details
+Provides information about the dataset used for training and evaluation.
+
+![Dataset Details](screenshots/dataset_details.png)
